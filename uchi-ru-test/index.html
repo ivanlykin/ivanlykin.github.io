@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Тестовое задание Uchi.ru</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="task_block">
+			<div class="task">
+				<span id="firstNumber"></span> + <span id="secondNumber"></span> = <span id="question">?</span><input id="answerInput" type="text" name="" maxlength="2" onkeyup="enterNumber(this,0)">
+			</div>
+			<canvas id="arrowCanvas" width="875" height="140">
+			</canvas>
+			<img id="sprite" src="sprite.png"/>
+			<input type="text" id="firstInput" name="" maxlength="2" onkeyup="enterNumber(this,1)">
+			<input type="text" id="secondInput" name="" maxlength="2" onkeyup="enterNumber(this,2)">
+			<button id="startBtn">Начать задание</button>
+		</div>
+	</div>
+
+</body>
+</html>

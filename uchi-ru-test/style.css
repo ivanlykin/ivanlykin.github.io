@@ -1,0 +1,74 @@
+html, body {
+	padding:0;
+	margin:0;
+}
+
+.container {
+	display: flex;
+	width:100vw;
+	height:100vh;
+}
+
+.task_block {
+	width:875px;
+	height:auto;
+	margin:auto;
+}
+
+.task {
+	margin:30px auto;
+	text-align: center;
+	font-size:30px;
+	font-family: "comic sans ms";
+}
+
+#arrowCanvas {
+	position:absolute;
+}
+
+#sprite {
+	margin-top:120px;
+}
+
+input {
+	opacity:0;
+	cursor: default; 
+	text-align:center; 
+	font-family:'comic sans ms'; 
+	font-size:20px; 
+	position:relative; 
+	width:26px;
+	height:26px;
+	border:1px solid lightgrey; 
+	border-radius:4px;
+}
+
+input[disabled="disabled"] {
+	background:rgba(255,255,255, .0);
+	border-color:rgba(255,255,255, .0);
+}
+
+#answerInput {
+	width:38px;
+	height:38px;
+	font-size:30px;
+}
+
+#startBtn {
+	width:115px;
+	margin:20px;
+	float:right;
+	padding:7px;
+	border:1px solid #DB7093;
+	border-radius:2px;
+	background-color: #DB7093;
+	color:#8B0000;
+	cursor:pointer;
+	transition: 0.3s;
+}
+
+#startBtn:hover {
+	border-color: rgba(219, 112, 147, .8);;
+	background: rgba(219, 112, 147, .8);
+	transition: 0.3s;
+}
