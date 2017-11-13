@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>Yuppie Marketing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" href="css/panorama.css" media="all" />
+        <link rel="stylesheet" href="css/panorama360.css" media="all" />
+        <link rel="stylesheet" href="css/style.css" media="all" />
+        
+        <script src="js/jquery.mousewheel.min.js"></script>
+        <script src="js/jquery.cyclotron.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" rel="stylesheet">
+
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+            clientId: '69fccfed77494dd786a5cf1e497a0369',
+                userId: 5636392924,
+                accessToken: '5636392924.69fccfe.49cd66c2cbd84e91a887ae11ed2e9669',
+            resolution: 'standard_resolution',
+            limit: 2,
+            template: '<div class="col-lg-6 col md-6 col-sm-6 col-xs-12 item" ><div class="work_item" style="box-shadow: 0 0 10px rgba(0,0,0,0.5); margin-bottom:20px;"><div class="work_img aqa" style="background:url({{image}}) no-repeat;width:100%;background-size:contain;background-position:center center;"><img src="{{image}}" style="width:100%;opacity:0" alt="" /></div></div></div>'
+            });
+            userFeed.run();
+        </script>
+    </head>
+    <body>
+        <script src="js/pageloader.js" type="text/javascript"></script>
+        <link rel="stylesheet" id="pageloader-css"  href="css/pageloader.css" type="text/css" media="all" />
+
+        <div id="bonfire-pageloader">
+            <div class="bonfire-pageloader-icon">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <path id="loading-12-icon" d="M291,82.219c0,16.568-13.432,30-30,30s-30-13.432-30-30s13.432-30,30-30S291,65.65,291,82.219z
+                     M261,404.781c-15.188,0-27.5,12.312-27.5,27.5s12.312,27.5,27.5,27.5s27.5-12.312,27.5-27.5S276.188,404.781,261,404.781z
+                     M361.504,113.167c-4.142,7.173-13.314,9.631-20.487,5.489c-7.173-4.141-9.631-13.313-5.49-20.487
+                    c4.142-7.173,13.314-9.631,20.488-5.489C363.188,96.821,365.645,105.994,361.504,113.167z M188.484,382.851
+                    c-14.348-8.284-32.697-3.368-40.98,10.98c-8.285,14.349-3.367,32.696,10.98,40.981c14.35,8.283,32.697,3.367,40.98-10.981
+                    C207.75,409.482,202.834,391.135,188.484,382.851z M421.33,184.888c-8.368,4.831-19.07,1.965-23.901-6.404
+                    c-4.832-8.368-1.965-19.07,6.404-23.902c8.368-4.831,19.069-1.964,23.9,6.405C432.566,169.354,429.699,180.056,421.33,184.888z
+                     M135.399,329.767c-8.285-14.35-26.633-19.266-40.982-10.982c-14.348,8.285-19.264,26.633-10.979,40.982
+                    c8.284,14.348,26.632,19.264,40.981,10.98C138.767,362.462,143.683,344.114,135.399,329.767z M436.031,277.249
+                    c-11.044,0-20-8.953-20-19.999c0-11.045,8.955-20.001,20.001-20.001c11.044,0,19.999,8.955,19.999,20.002
+                    C456.031,268.295,447.078,277.249,436.031,277.249z M115.97,257.251c-0.001-16.57-13.433-30.001-30.001-30.002
+                    c-16.568,0.001-29.999,13.432-30,30.002c0.001,16.566,13.433,29.998,30.001,30C102.538,287.249,115.969,273.817,115.97,257.251z
+                     M401.333,364.248c-10.759-6.212-14.446-19.97-8.234-30.73c6.212-10.759,19.971-14.446,30.731-8.233
+                    c10.759,6.211,14.445,19.971,8.232,30.73C425.852,366.774,412.094,370.46,401.333,364.248z M135.398,184.736
+                    c8.285-14.352,3.368-32.698-10.98-40.983c-14.349-8.283-32.695-3.367-40.981,10.982c-8.282,14.348-3.366,32.696,10.981,40.981
+                    C108.768,204,127.115,199.082,135.398,184.736z M326.869,421.328c-6.902-11.953-2.807-27.242,9.148-34.145
+                    s27.243-2.806,34.146,9.149c6.902,11.954,2.806,27.243-9.15,34.145C349.059,437.381,333.771,433.284,326.869,421.328z
+                     M188.482,131.649c14.352-8.286,19.266-26.633,10.982-40.982c-8.285-14.348-26.631-19.264-40.982-10.98
+                    c-14.346,8.285-19.264,26.633-10.98,40.982C155.787,135.017,174.137,139.932,188.482,131.649z"/>
+                </svg>
+            </div>
+            <script>
+            jQuery(window).resize(function(){
+                 resizenow();
+            });
+            function resizenow() {
+                var browserwidth = jQuery(window).width();
+                var browserheight = jQuery(window).height();
+                jQuery('.bonfire-pageloader-icon').css('right', ((browserwidth - jQuery(".bonfire-pageloader-icon").width())/2)).css('top', ((browserheight - jQuery(".bonfire-pageloader-icon").height())/2));
+            };
+            resizenow();
+            </script>
+        </div>
+    
+        <div class="cyclotron" style="background:url(img/demo1300px.jpg); background-size: auto 100%"></div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.cyclotron').css('height',$(window).height());
+                $('.cyclotron').cyclotron({dampingFactor:1,autorotation:1});
+            });
+        </script>
+
+        <header>
+            <div id="navigation">
+                <ul id="menu">
+                    <a href="index.html"><img src="img/logo.png" class="mainLogo"/></a>
+                    <a href="index.html"><img src="img/vacant.png" class="mediaLogo"/></a>
+                    <li><a class="scroll" href="#contacts">Контакты</a></li>
+                    <li><a class="scroll" href="#news">Новости</a></li>
+                    <li><a class="scroll" href="#team">Команда</a></li>
+                    <li><a class="scroll" href="#about">О нас</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <hr />
+
+        <section id="about">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="title">О нас</p>
+                    <p class="about-text">Yuppie является аутсорсинговой компанией прямого маркетинга. Мы предоставляем услуги по привлечению клиентов для различных организаций, которым необходимо увеличить клиентскую базу, путем современных методов маркетинга. Мы обеспечиваем своих клиентов гарантированным возвратом инвестиций и целевой аудиторией.</p>
+                    <span>Узнайте больше</span>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-more">
+                    <p class="about-text">Мы используем три канала связи - event, резиденцию, B2B, привлекаем клиентов по средствам прямого маркетинга, то есть общаемся с клиентами лицом к лицу. Такой вид рекламы один из самых эффективных. Эта ситуация win win, когда заказчик доволен полученным результатом, клиент доволен услугами заказчика, а мы довольны качественно выполненной работой и высоким вознаграждением.</p>
+                    <p class="about-text">Мы являемся одной из быстрорастущих маркетинговых компаний в России. Одна из ключевых причин нашего успеха- наши люди. В компании мы осуществляем персональную поддержку в профессиональном развитии и поощряем раскрытию талантов и потенциала. У нас есть формула успеха, которая позволяет расти и развиваться.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="photo">
+            <div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo1.jpg">
+                    <p>"Мы находимся здесь, чтобы внести свой вклад в этот мир. Иначе зачем мы здесь?"</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo2.jpg">
+                    <p>Я сделаю Вам предложение от которого вы не сможете отказаться.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo3.jpg">
+                    <p>Не бойся быть не как все и все захотят быть как ты!</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo4.jpg">
+                    <p>"Ваше время ограничено, не тратьте его на то, чтобы жить чужой жизнью!"</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo5.jpg">
+                    <p>"Сила трех нас спасет"</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="img/photo6.jpg">
+                    <p>А говорят, крепостное право отменили в XIX веке :)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="black">
+            <img src="img/logo_black.jpg">
+        </section>
+
+        <section id="strategy">
+            <p class="strategy-title">Стратегия</p>
+            <p class="strategy-about">Наша команда это преданные своему делу профессионалы.  Все пришли в наш бизнес из разных сфер. Все используют свои таланты по максимуму. Работают на 100%. Почему? Просто в нашем бизнесе - люди - это ключевой момент. На персональное развитие мы уделяем большое количество времени и средств. Для нас это важно. Это наша репутация.</p>
+        </section>
+
+        <hr />
+
+        <section id="team">
+            <!-- первые два человека -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="title">Команда</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <div>
+                        <img id="m1" class="small-photo" src="img/timur.jpg"/>
+                        <p class="folio-name">Тимур Коновалов</p>
+                        <p class="folio-position">Владелец компании</p>
+                        <p id="team1" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                    <div>
+                        <img id="m2" class="small-photo" src="img/iren_big.jpg"/>
+                        <p class="folio-name">Ирэн Бурнусузян</p>
+                        <p class="folio-position">Менеджер по персоналу</p>
+                        <p id="team2" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+
+                </div>
+            </div>
+            <div id="full_team1" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/timur.jpg" class="big-photo"  />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Тимур Коновалов</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Владелец компании</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info"></p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team2" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/iren.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Ирэн Бурнусузян</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Менеджер по персоналу</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Первый человек, который встретит вас в Yuppie буду я, Ирэнка. А где есть Ирэнка, там всегда светит солнышко и есть уют. Мне интересно общаться с людьми и узнавать различные их истории. Люблю шоколадки, улыбки и жизнь)</p>
+                </div>
+                <hr/>
+            </div>
+            <!-- первые два человека конец -->
+
+            <!-- следующие 4 человека (3-6) -->
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m3" class="small-photo" src="img/albina.jpg"/>
+                        <p class="folio-name">Альбина Зигангирова</p>
+                        <p class="folio-position">Лидер команды</p>
+                        <p id="team3" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m4" class="small-photo" src="img/maria.jpg"/>
+                        <p class="folio-name bg">Мария Ермакова</p>
+                        <p class="folio-name sm">Мария<br>Ермакова</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team4" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m5" class="small-photo" src="img/magomed.jpg"/>
+                        <p class="folio-name">Магомед Парижев</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team5" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m6" class="small-photo" src="img/arman.jpg"/>
+                        <p class="folio-name">Арман Галумян</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team6" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+            </div>
+            <div id="full_team3" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/albina.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Альбина Зигангирова</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер команды</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет, я Альбишка! Если хочешь быть таким, как я, то у тебя не выйдет))<br>
+                    Но это и не обязательно. Я помогу раскрыть в тебе твои таланты, и, возможно, ты станешь даже лучше. Ведь у меня здесь самая большая команда крутых ребят, которые во всем мне помогают!</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team4" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/maria.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Мария Ермакова</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет! Меня зовут Мария, я один из самых опытных игроков в офисе. Последние 5 лет жила в Англии, вернулась в Россию строить свой бизнес. Именно поэтому я здесь, я yuppie. Бизнес — это не наука и не искусство, это практика, очень много практики. Приходи в команду, будем строить бизнес вместе, партнёр. Кстати, я очень люблю пикники в парке, танцы, хорошие вино и виски и, конечно, черный чай. В общем, ты знаешь, что делать.</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team5" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/magomed.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Магомед Парижев</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Здравствуй, меня зовут Магомед, мне 21+ (я просто не знаю в какое время ты это читаешь), в бизнесе я довольно-таки давно и ключ к успеху — это не только ходить в магазин со своим пакетом, но и заваривать чайный пакетик 2, а то и более раз. Ребята, не стесняйтесь пользоваться купонами в BK, ведь что может быть лучше воппера?<br>
+                    Только 2 воппера.<br>
+                    Так же я талантлив и играю на басу, ведь только по-настоящему талантливый человек может из 4х струн играть исключительно на последней. Всем peace))))!!!.</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team6" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/arman.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Арман Галумян</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет, ребят, меня зовут Арман. С персидского мое имя переводится как «мечта». Что полностью олицетворяет меня.<br>
+                    Ладно, шутка, я не самовлюбленный кретин, но если ты девушка от 20 до 30... аккуратнее, не влюбись) Если парень, и ты до сих пор это читаешь, то ты странный))</p>
+                </div>
+                <hr/>
+            </div>
+            <!-- следующие 4 человека (3-6) конец -->
+
+            <!-- следующие 4 человека (7-10) -->
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m7" class="small-photo" src="img/kristina.jpg"/>
+                        <p class="folio-name bg">Кристина Гордеева</p>
+                        <p class="folio-name sm">Кристина<br> Гордеева</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team7" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m8" class="small-photo" src="img/olya.jpg"/>
+                        <p class="folio-name bg">Ольга Павперова</p>
+                        <p class="folio-name sm">Ольга<br> Павперова</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team8" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m9" class="small-photo" src="img/ludmila.jpg"/>
+                        <p class="folio-name">Людмила Данилина</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team9" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m10" class="small-photo" src="img/migal.jpg"/>
+                        <p class="folio-name">Александр Мигаль</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team10" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+            </div>
+            <div id="full_team7" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/kristina.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Кристина Гордеева</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет, меня зовут Кристина.<br>
+                    Мне двадцать с чем-то лет, я сильная и независимая женщина. У меня уже на данный момент есть две кошки, я хороший водитель, так считают все мои друзья (кроме того самого пешехода, но не будем об этом), и я отлично лажу с техникой. Когда увидишь меня, ты все поймёшь!<br>
+                    P.S. Не верьте в защитные стекла!!!!</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team8" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/olya.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Ольга Павперова</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Сколько себя помню, мне всегда были интересны люди: чего они хотят? о чем думают? к чему стремятся? И, главное, как они всего достигают?<br>
+                    Мне хотелось оставить свой след и достичь чего-то самостоятельно, правда еще не знала каким образом. В Yuppi я недавно, но уже успела понять, что именно здесь у меня всё получится — двери открыты и, главное, есть люди, которые на своем примере показали и показывают, что это более чем возможно.<br>
+                    Как-то, в один из четвергов, я сходила попить вкусного пива с крутыми ребятами (что было дальше история умалчивает) и не успела оглянуться, как жизнь изменилась и теперь я точно знаю куда иду..</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team9" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/ludmila.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Людмила Данилина</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Я в компании работаю относительно недавно, но уже не могу себе представить свою жизнь без этой динамичной атмосферы и классного коллектива. Моя работа приносит мне невероятное количество позитивных эмоций и впечатлений, я много улыбаюсь здесь и делюсь радостью с окружающими :)<br>
+                    Я учусь здесь каждый день чему-то новому и с огромным удовольствием передам свои знания единомышленникам, готовым идти со мной вперед плечом к плечу.</p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team10" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/migal.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Александр Мигаль</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет, меня зовут Александр, и у меня никогда не было прозвищ, потому что фамилия моя Мигаль . Я люблю виски, бренди, ром, егермейстер, в общем найти со мной общий язык гораздо проще чем с остальными. <br>
+                    P.S.<br>
+                    Да, и я не алкоголик.</p>
+                </div>
+                <hr/>
+            </div>
+            <!-- следующие 4 человека (7-10) конец -->
+
+            <!-- следующие 4 человека (11-14) -->
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m11" class="small-photo" src="img/sonya.jpg"/>
+                        <p class="folio-name">Софья Монголова</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team11" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m12" class="small-photo" src="img/lucine.jpg"/>
+                        <p class="folio-name">Лусине Карапетян</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team12" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m13" class="small-photo" src="img/vika.jpg"/>
+                        <p class="folio-name">Виктория Качанова</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team13" class="folio-more">подробнее</p>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                    <div>
+                        <img id="m14" class="small-photo" src="img/timur.jpg"/>
+                        <p class="folio-name">Александр Мигаль</p>
+                        <p class="folio-position">Лидер</p>
+                        <p id="team14" class="folio-more">подробнее</p>
+                    </div>
+                </div> -->
+            </div>
+            <div id="full_team11" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/sonya.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Софья Монголова</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Всем привет)<br/>
+                    Я Софья, и моя основная задача в компании - питать всех вокруг своей космической силой!</p>
+                </div>
+                <hr/>
+            </div>
+          <div id="full_team12" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/lucine.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Лусине Карапетян</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет, меня зовут Люси!<br/>
+                    Когда ты зайдешь в офис, ты сразу меня узнаешь, потому что я самая весёлая, яркая и громкая, а мой энтузиазм не оставит равнодушным никого!)
+                    </p>
+                </div>
+                <hr/>
+            </div>
+            <div id="full_team13" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/vika.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Виктория Качанова</div><img class="close-team" src="img/close.png">
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Привет! Я Виктория, обожаю когда меня называют Викуля. Я милаш, милаш в котором полно упорства, спокойствия и забавного смеха. Здесь я не так давно, но уже очень многому научилась, могу и тебя многому научить. Упорно иду к своей цели и знаю, что ее добьюсь - именно здесь!<br/>
+Приходи в нашу безумную команду, - будет весело, это я тебе обещаю!</p>
+                </div>
+                <hr/>
+            </div>
+            <!--<div id="full_team14" class="row full_team">
+                <div class="mark"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/timur.jpg" class="big-photo" />
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="team-name">Александр Мигаль</div>
+                    <div class="team-position">Лидер</div>
+                    <div class="team-social">Email&nbsp; vk&nbsp; fb&nbsp; twitter</div>
+                    <p class="team-info">Эммм<br/>
+                    Виски - Chivas Reagle 18 Y.O.<br/>
+                    Коньяк - Hennessy vsop<br/>
+                    Ну а лучше всего Ром - Captain Morgan<br/>
+                    Ну вы поняли ..... ).</p>
+                </div>
+                <hr/>
+            </div> -->
+            <!-- следующие 4 человека (11-14) конец -->
+        </section>
+
+        <hr />
+
+        <section id="news">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="title">Новости <a href="news.html">&nbsp;увидеть больше</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <a class="twitter-timeline" href="https://twitter.com/Yuppie30740014" data-tweet-limit="1">Tweets by Yuppie</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                    <div id="instafeed"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">       
+             <hr/>
+            <div class="row" >
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+                    <p class="title">Контакты</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <form id="work_form" class="cv-form" action="ru-work.php" enctype="multipart/form-data" method="post">
+                        <h4 class="cv-title">Присоединяйся</h3>
+                        <input type="text" class="cv-input" name="Name" placeholder="ФИО">
+                        <input type="email" class="cv-input" name="Email" placeholder="E-mail">
+                        <input type="text" class="cv-input" name="Phone" placeholder="Телефон">
+                        <div>
+                            <span>Резюме:&nbsp;&nbsp;&nbsp;</span>
+                            <input type="file" name="Filework">
+                        </div>
+                        <input type="submit" name="send_work_form" style="" class="cv-button" value="Отправить">
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+                    <div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6924a3d531d9d6418ee761942a4de79d006f46ba5d53740fa42ce4ce1850edf5&amp;&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script></div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacts-info">
+                        <div class="fa fa-phone fa-lg"></div>
+                        <p>+7 (499) 271-96-40</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacts-info">
+                        <div class="fa fa-envelope-o fa-lg"></div>
+                        <p><a href="mailto:info@yuppie.city">info@yuppie.city</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 contacts-info">
+                        <div class="fa fa-map-marker fa-lg"></div>
+                        <p>105082, Москва, Ул. Сретенка, д. 24/2 стр.1</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contacts-social">
+                        <div class="fa fa-vk fa-2x"></div>
+                        <div class="fa fa-facebook fa-2x"></div>
+                        <div class="fa fa-twitter fa-2x header-icons"></div>
+                        <div class="fa fa-instagram fa-2x"></div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+    </body>
+</html>

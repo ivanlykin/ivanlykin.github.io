@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+    	<meta charset="utf-8">
+		<title>News | VIO Organisation</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+    	<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+    	<script src="../js/jquery.min.js" type="text/javascript"></script>
+    	<script src="../js/scripts.js" type="text/javascript"></script>
+
+        <script type="text/javascript" src="../js/instafeed.min.js"></script>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+            clientId: 'd5dbd4bf02ee4909853fa18a79bf07e1',
+                userId: 3627237400,
+                accessToken: '3627237400.d5dbd4b.38801378fad44932a37e997c55d42fc7',
+            resolution: 'standard_resolution',
+            limit: 12,
+            template: '<div class="col-lg-6 col md-6 col-sm-6 col-xs-12 item" ><div class="work_item" style="box-shadow: 0 0 10px rgba(0,0,0,0.5); margin-bottom:20px;"><div class="work_img aqa" style="background:url({{image}}) no-repeat;width:100%;background-size:contain;background-position:center center;"><img src="{{image}}" style="width:100%;opacity:0" alt="" /></div></div></div>'
+            });
+            userFeed.run();
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div id="menu-bg" class="green">
+                <div id="header-logo">
+                    <a href="index.html"><img src="../img/logo.png" /></a>
+                </div>
+                <div class="slogan">
+                    <div>DESIRE</div>
+                    <div>OVER</div>
+                    <div>EXPERIENCE</div>
+                </div>
+                <a href="../spycam.html"><img class="header-lang" src="../img/ru.jpg" /></a>
+                <div id="touch-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>            
+        </header>
+
+        <nav>  
+            <div class="slide-menu">
+                <div id="navigation">
+                    <div>
+                        <div class="menu-title">
+                            <a href="index.html"><img src="../img/logo.png"/></a>
+                        </div>
+                        <ul class="navigation">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="team.html">VIO People</a></li>
+                            <li><a href="spycam.html">News</a></li>
+                            <li id="career-link">Careers</li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="menu-contacts">
+                            <div class="fa fa-phone fa-lg"></div>&nbsp; +7 (499) 271-96-87<br/>
+                            <div class="fa fa-envelope-o fa-lg"></div>&nbsp; <a href="mailto:info@vioorg.com">info@vioorg.com</a><br/>
+                        </div>
+                        <div class="menu-socials">
+                            <div class="fa fa-vk fa-lg header-icons"></div>
+                            <div class="fa fa-facebook fa-lg header-icons"></div>
+                            <div class="fa fa-twitter fa-lg header-icons"></div>
+                            <div class="fa fa-instagram fa-lg header-icons"></div>
+                        </div>
+                        <div class="menu-language">
+                            <a href="../spycam.html"><img src="../img/ru.jpg"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="top-title-spycam">
+                <div class="top-title-bg">
+                    <div class="top-title-text">NEWS</div>
+                </div>
+            </div>
+
+            <div class="row social-block">    
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <a class="twitter-timeline" href="https://twitter.com/VIOorganisation" data-tweet-limit="4">Tweets by VIOorganisation</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <img src="../img/instagram.png"/>
+                    <div id="instafeed"></div>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <div>
+                    <div>
+                        <div class="icons-block">
+                            <div>
+                                <h3 class="hm">Find more</h3>
+                            </div>
+                            <div class="fa fa-vk fa-3x"></div>
+                            <div class="fa fa-facebook fa-lg fa-3x"></div>
+                            <div class="fa fa-twitter fa-lg fa-3x"></div>
+                            <div class="fa fa-instagram fa-lg fa-3x"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <div class="hidden-xs">
+                    &copy; 2017 VIO Organisation
+                </div>
+                <div class="contacts-footer hidden-sm">
+                    <div class="fa fa-phone fa-lg"></div> +7 (499) 271-96-87
+                </div>
+                <div class="contacts-footer hidden-sm">
+                    <div class="fa fa-envelope-o fa-lg"></div> <a href="mailto:info@vioorg.com">info@vioorg.com</a>
+                </div>
+                <div class="contacts-footer hidden-lg hidden-md hidden-xs double-contacts">
+                    <div class="fa fa-phone fa-lg"></div> +7 (499) 271-96-87<br>
+                    <div class="fa fa-envelope-o fa-lg"></div> <a href="mailto:info@vioorg.com">info@vioorg.com</a>
+                </div>
+                <div class="footer-career hidden-lg hidden-md hidden-xs double-contacts">
+                    <span>Careers</span>
+                    <a href="contacts.html">Contacts&nbsp;</a>
+                </div>
+                <div class="footer-career hidden-sm">
+                    <span>Careers</span>
+                </div>
+                <div class="footer-career hidden-sm">
+                    <a href="contacts.html">Contacts&nbsp;</a>
+                </div>
+                <div id="social-footer">
+                    <div class="fa fa-vk fa-lg header-icons"></div>
+                    <div class="fa fa-facebook fa-lg header-icons"></div>
+                    <div class="fa fa-twitter fa-lg header-icons"></div>
+                    <div class="fa fa-instagram fa-lg header-icons"></div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm">
+                    &copy; 2017 VIO Organisation
+                </div>
+            </div>
+        </footer>
+
+        <div class="work_popup">
+            <div class="popup">
+                <div class="career-message"></div>
+                <form id="work_form" action="" enctype="multipart/form-data" method="post">
+                    <h3>Careers</h3>
+                    <input type="text" name="Name" placeholder="Имя"/><div id="err_name" class="error_form">&nbsp;</div>
+                    <input type="email" name="Email" placeholder="E-mail"><div id="err_email" class="error_form">&nbsp;</div>
+                    <input type="text" name="Phone" placeholder="Телефон"><div id="err_phone" class="error_form">&nbsp;</div>
+                    <div>
+                        <span>Add CV:&nbsp;&nbsp;&nbsp;</span>
+                        <input type="file" name="Filework">
+                    </div>
+                    <input type="submit" name="send_work_form" value="Send">
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
